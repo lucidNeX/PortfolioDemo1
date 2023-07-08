@@ -170,7 +170,6 @@ import Instagram_icon from "../assets/photos/instaLogo.png";
 import github_icon from "../assets/github.png";
 import linked_ing_icon from "../assets/linked_in.png";
 import WhatsApp_icon from "../assets/photos/whatsappLogo.png";
-import hacker_rank from "../assets/hacker_rank.png";
 
 export default {
   name: "Home",
@@ -187,7 +186,6 @@ export default {
       linked_ing_icon,
       Instagram_icon,
       WhatsApp_icon,
-      hacker_rank,
     };
   },
 };
