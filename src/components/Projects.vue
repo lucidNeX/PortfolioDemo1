@@ -1,7 +1,7 @@
 <template>
   <div class="q-ma-none q-pa-none" style="height: fit-content">
     <!-- <q-parallax
-      class="q-pa-lg"
+      class="q-py-lg"
       :class="q.platform.is.mobile ? 'aboutMobile' : 'window-height'"
       style="height: fit-content"
     >

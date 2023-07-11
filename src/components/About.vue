@@ -8,10 +8,10 @@
           ? 'aboutDesktop'
           : 'about'
       "
-      class="q-pa-lg"
+      class="q-py-lg"
     >
       <template v-slot:media>
-        <img src="../assets/backgrounds/pexels-nelson-ribeiro-2313677.png" />
+        <img src="" />
         <!-- <div class="overlay"></div>  roland-denes-24CcFvbRsBE-unsplash.png -->
       </template>
 
@@ -45,7 +45,7 @@
                   {{ n }}
                 </li>
               </ul>
-              <div class="text-subtitle1 text-white text-center fade-in3" :style="{}">
+              <div class="text-subtitle1 text-white text-center fade-in3" >
                 A Passionate Enthusiast Full-Stack-Developer graduated from NSS College of
                 Engineering, Palakkad.<br />
                 Interested in Dance and Music. <br />Iam a B-boy (Break boy in hiphop

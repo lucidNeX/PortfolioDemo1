@@ -3,7 +3,7 @@
     <q-card class="transparent q-mb-md" flat>
       <q-card-section class="">
         <div class="text-h5 text-bold q-my-md text-center text-white">Skills</div>
-        <div class="text-subtitle1 text-grey">
+        <div class="justify-center text-center text-subtitle1 text-grey">
           <div class="row justify-center">
             <SkillCard
               name="Languages"

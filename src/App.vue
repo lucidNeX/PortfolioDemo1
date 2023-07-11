@@ -1,5 +1,5 @@
 <template>
-  <q-layout class="bg-black">
+  <q-layout class="bg-black ">
     <q-header :elevated="isNavbarElevated" reveal class="text-white">
       <q-page-sticky
         expand
@@ -16,7 +16,7 @@
               ]"
               class="q-mr-sm q-py-xs custom_tab"
               @click="scrollToElement('id_home')"
-              style="width: 120px; min-height: auto !important"
+              style="width: 90px; min-height: auto !important"
               label="Home"
             />
             <q-tab
@@ -27,7 +27,7 @@
               ]"
               class="q-mr-sm q-py-xs custom_tab"
               @click="scrollToElement('id_about')"
-              style="width:120px;min-height:auto; !important;"
+              style="width:90px;min-height:auto; !important;"
               label="About"
             />
             <q-tab
@@ -38,7 +38,7 @@
               ]"
               class="q-mr-sm q-py-xs custom_tab"
               @click="scrollToElement('id_skills')"
-              style="width: 120px; min-height: auto !important"
+              style="width: 90px; min-height: auto !important"
               label="Skills"
             />
             <q-tab
@@ -49,7 +49,7 @@
               ]"
               class="q-mr-sm q-py-xs custom_tab"
               @click="scrollToElement('id_education')"
-              style="width: 120px; min-height: auto !important"
+              style="width: 90px; min-height: auto !important"
               label="Education"
             />
             <q-tab
@@ -71,7 +71,7 @@
               ]"
               class="q-mr-sm q-py-xs custom_tab"
               @click="scrollToElement('id_projects')"
-              style="width: 120px; min-height: auto !important"
+              style="width: 90px; min-height: auto !important"
               label="Projects"
             />
 
@@ -95,7 +95,7 @@
                   : { color: colorWhite },
               ]"
               class="q-mr-sm q-py-xs custom_tab"
-              style="width: 120px; min-height: auto !important"
+              style="width: 90px; min-height: auto !important"
               label="Login"
             >
             </q-route-tab> -->
@@ -364,17 +364,17 @@ export default {
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-.bg-image2 {
+/* .bg-image2 {
   /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./assets/milky.png); */
-  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assets/photos/1685710274578.JPEG); */
+    url(./assets/milky.png); 
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assets/photos/1685710274578.JPEG); 
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./assets/backgrounds/pexels-aaron-mello-185661.png);
   background-repeat: no-repeat;
   /* background-size: 100% 100%;
-height: 100vh; */
+height: 100vh; 
   background-size: cover;
-}
+} */
 .bg-image3 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./assets/backgrounds/jefferson-santos-9SoCnyQmkzI-unsplash.png);

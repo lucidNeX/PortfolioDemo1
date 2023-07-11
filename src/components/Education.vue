@@ -90,8 +90,8 @@
   color: white !important;
 }
 .CardZoom :hover {
-  background-color: rgb(254, 255, 255) !important;
-  border-radius: 10rem 0rem 25rem  ;
+  background-color: rgba(254, 255, 255, 0) !important;
+  border-radius: 1rem ;
 }
 .CardBackground :hover {
   border-radius: 1px !important;
@@ -128,7 +128,7 @@ export default {
         university: "Kerala Technological University",
         school: "NSS College of Engineering Palakkad",
         period: "From 2017 to 2021",
-        specialization: "B.Tech Computer Science and Engineering",
+        specialization: "B.Tech Computer Science & Engineering",
         logo: ref(GraduationLogo),
         code: 1,
       },
@@ -145,7 +145,7 @@ export default {
       {
         title: "High School",
         university: "CBSE",
-        school: "Jawahar Navodhaya Vidyalaya, Palakkad",
+        school: "Jawahar Navodhaya Vidyalaya Palakkad",
         period: "From 2010 to 2015",
         specialization: "Science",
         //logo: "../assets/photos/Jawahar_Navodaya_Vidyalaya_logo.png",
